@@ -1,0 +1,12 @@
+En este documento se hace un resumen tanto de la historia sobre del funcionamiento de los sistemas operativos.
+primero miraremos a la historia de los sistemas operativos, no los revisaremos todos, pero nombraremos los mas importantes.
+El primer sistema operativo fue llamado CTSS y cuyo unico idioma era el ingles, esto sucedio en el año 1961.
+Luego otro gran avance fue la creacion del sistema operativo UNIX, creado por AT&T, quien vendio todos los derechos del SO.
+IBM intento entrar en el negocio de los sistemas operativos, con un SO llamado VM, esto por el año 1973.
+Uno de los ultimos sistemas operativos isn interfaz grafica fue le Apple Dos en el año 1978.
+Luego de esto MS Dos fue uno de los primeros SO con interfaz grafica, este desarrollado por Microsoft.
+LisaOS desarrollado por apple en 1983 y Windows95 Desarrollado en 1995 son los modelos se SO que usamos en este momento.
+Linux un SO libre y basado en UNIX que ase al mercado en 1991 es uno de los avances mas importantes.
+Mientras Microsoft hace nuevos SO y apple actualiza su SO, en 2004 se crea Ubuntu, la actual distribucion mas famosa de Linux.
+El siguiente avance importante es la creacion de Android usando Linux, SO libre para los celulares que todos y todas usamos.
+El ultimo avance importante es el de Windows 10 por Microsoft, este SO es gratis e intenta ser un hibrido entre movil y PC.
