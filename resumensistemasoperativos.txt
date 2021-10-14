@@ -10,3 +10,17 @@ Linux un SO libre y basado en UNIX que ase al mercado en 1991 es uno de los avan
 Mientras Microsoft hace nuevos SO y apple actualiza su SO, en 2004 se crea Ubuntu, la actual distribucion mas famosa de Linux.
 El siguiente avance importante es la creacion de Android usando Linux, SO libre para los celulares que todos y todas usamos.
 El ultimo avance importante es el de Windows 10 por Microsoft, este SO es gratis e intenta ser un hibrido entre movil y PC.
+
+
+Ahora hablaremos un poco sobre que es un SO y cuales son sus funciones y caracteristicas.
+Un SO es un conjunto de programas mediante el cual el usuario puede interactuar con el hardware y controla la ejecucion del software.
+Para esto el SO tiene que ser capaz de entender input mediante herramientas como el teclado y el mouse.
+Tambien debe ser capaz de transformar esta informacion y que sea entendible para los programas y para el harware para que puedan hacer su trabajo.
+El SO puede ser monotarea o multitarea.
+Monotarea: significa que puede solo desempeñar un proceso a la vez.
+Multitarea: significa que puede desempeñar varios procesos al mismo tiempo.
+El sistema operativo no necesariamente debe tener una interfaz grafica, pero ha demostrado ser muy util.
+Hay sistemas operativos libres y algunos que son de pago.
+El SO puede ser monousuario o multiusuario.
+Monousuario: significa que el SO funciona solamente en el equipo en el cual esta instalado.
+Multiusuario: significa que el SO funciona en varios equipos que estan conectados al equipo donde el SO esta instalado.
