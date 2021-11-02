@@ -1,0 +1,1 @@
+por ultimo aqui estamos borrando todo y sobreescribiendo en write mode
