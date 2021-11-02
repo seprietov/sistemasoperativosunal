@@ -1,6 +1,5 @@
 #ejemplos de como se escribe y se leen archivos
-import os
-print(os.getcwd())
+
 with open("newfile.txt", "w") as file:
     file.write("esta es la prueba de escritura en un archivo que tambien ha sido recien creado")
     file.close()
