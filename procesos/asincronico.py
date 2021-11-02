@@ -1,5 +1,5 @@
 import asyncio
-
+# imprime usando dos fuiones, una de pares y una de impares los numeros del 1 al 10
 async def par():
     for x in range(2, 11, 2):
         print(x) 
