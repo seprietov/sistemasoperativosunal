@@ -1,20 +1,30 @@
 import socket
+import asyncio as asy
+import json
+import ssl
 
-target_host = "https://www.buda.com/api/v2/markets"
+def rcv(socket):
+    while True:
+        data = socket.recv(512)
+        if len(data) < 1:
+            break
+        print(data.decode())
 
-target_port = 80  # create a socket object
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+def get_buda():
+    host = 'www.buda.com'
+    request = ['/api/v2/markets', '/api/v2/markets/BTC-CLP', '/api/v2/markets/eth-btc/ticker']
+    port = 443
+    get = 'GET {} HTTP/1.0\r\nHost: {}\r\n\r\n'.format(request[0], host)
 
-# connect the client
-client.connect((target_host, target_port))
+    ctx = ssl.create_default_context()
 
-# send some data
-request = "GET /markets/btc-clp" % target_host
-client.send(request.encode())
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+        sock.settimeout(15)
+        
+        with ctx.wrap_socket(sock, server_hostname=host) as ssock:
+            ssock.connect((host, port))
+            ssock.send(get.encode())
+            rcv(ssock)
+        
 
-# receive some data
-response = client.recv(4096)
-http_response = repr(response)
-http_response_len = len(http_response)
-
-print(response)
+get_buda()
