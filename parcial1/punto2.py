@@ -5,7 +5,6 @@ import asyncio as asy
 host = 'www.buda.com'
 port = 443
 
-#Funcion para recibir datos del servidor. Retorna un string con todos los datos
 def rcv(socket) -> str:
     all_data = ''
     while True:
