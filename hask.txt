@@ -1,0 +1,16 @@
+path:    C:\Users\Sergio\Documents\VSCodeGitHub\sistemasoperativosunal\parcial1\Punto1.py
+format:    sha256
+result:    3eb439d687db757849174a2755418896efb61aa83af942e01a6f3ce6880609ad
+
+path:    C:\Users\Sergio\Documents\VSCodeGitHub\sistemasoperativosunal\parcial1\Punto2.py
+format:    sha256
+result:    f2816998a985b1393e8d2b7b796a6c44b44f71bf0af263345de6a232d8bb435d
+
+path:    C:\Users\Sergio\Documents\VSCodeGitHub\sistemasoperativosunal\parcial1\Punto3.py
+format:    sha256
+result:    08967395227bdf1c4d2f1d1fee02b2ca2483688276e3a2ba01dd715ba3c421d5
+
+path:    C:\Users\Sergio\Documents\VSCodeGitHub\sistemasoperativosunal\parcial1\Punto4\Client.py
+format:    sha256
+result:    ef98b4d9e136ce99ecfe5288d2a406a6797f540f787dab053bfcec23b6648af8
+

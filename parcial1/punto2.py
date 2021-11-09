@@ -1,20 +1,23 @@
-import socket
-import asyncio as asy
-import json
-import ssl
 
-def rcv(socket):
+import socket, json, ssl
+import asyncio as asy
+
+host = 'www.buda.com'
+port = 443
+
+#Funcion para recibir datos del servidor. Retorna un string con todos los datos
+def rcv(socket) -> str:
+    all_data = ''
     while True:
         data = socket.recv(512)
         if len(data) < 1:
             break
-        print(data.decode())
+        all_data += data.decode()
+    return all_data
 
-def get_buda():
-    host = 'www.buda.com'
-    request = ['/api/v2/markets', '/api/v2/markets/BTC-CLP', '/api/v2/markets/eth-btc/ticker']
-    port = 443
-    get = 'GET {} HTTP/1.0\r\nHost: {}\r\n\r\n'.format(request[0], host)
+async def get_buda(req: int) -> str:
+    requests = ['markets', 'markets/BTC-CLP', 'markets/btc-clp/ticker', 'markets/btc-cop/ticker', 'markets/eth-btc/ticker']
+    get = 'GET /api/v2/{} HTTP/1.0\r\nHost: {}\r\n\r\n'.format(requests[req], host).encode()
 
     ctx = ssl.create_default_context()
 
@@ -23,8 +26,24 @@ def get_buda():
         
         with ctx.wrap_socket(sock, server_hostname=host) as ssock:
             ssock.connect((host, port))
-            ssock.send(get.encode())
-            rcv(ssock)
-        
+            ssock.send(get)
+            return rcv(ssock), requests[req]
+            
+def get_json(data: str) -> str:
+    js = data.split('\r\n\r\n')
+    js = js[1]
+    idt_js = json.dumps(json.loads(js), indent=4, sort_keys=True)
+    return idt_js
 
-get_buda()
+async def write(tupla: tuple):
+    task = asy.create_task(tupla)
+    data, title = await task
+    handler = open(title.replace('/', '_')+'.txt', 'w')
+    handler.write(get_json(data))
+    
+async def main():
+    await asy.create_task(write(get_buda(2)))
+    await asy.create_task(write(get_buda(3)))
+    await asy.create_task(write(get_buda(4)))
+
+asy.run(main())
