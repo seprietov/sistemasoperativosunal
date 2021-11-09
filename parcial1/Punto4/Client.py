@@ -27,7 +27,7 @@ def upld(path_file):
         print("\nCouldn't open the file. Make sure the path is correct.")
         return
     try:
-        sock.send("UPLD")
+        sock.send("UPLD".encode())
     except:
         print("Couldn't make server request. Make sure a coneection has been established.")
         return
@@ -60,7 +60,7 @@ def upld(path_file):
 def list_files():
     print("\nRequesting files:...")
     try:
-        sock.send("LIST")
+        sock.send("LIST".encode())
     except:
         print("Couldn't make server request. Make sure a conection has been established.")
         return
