@@ -4,7 +4,7 @@ result:    3eb439d687db757849174a2755418896efb61aa83af942e01a6f3ce6880609ad
 
 path:    C:\Users\Sergio\Documents\VSCodeGitHub\sistemasoperativosunal\parcial1\Punto2.py
 format:    sha256
-result:    f2816998a985b1393e8d2b7b796a6c44b44f71bf0af263345de6a232d8bb435d
+result:    fbc1daaa8d8403281e102b9ca4ebbcb2bed1dce2f967991d92e799492fd97663
 
 path:    C:\Users\Sergio\Documents\VSCodeGitHub\sistemasoperativosunal\parcial1\Punto3.py
 format:    sha256
