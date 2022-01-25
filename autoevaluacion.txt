@@ -1,0 +1,43 @@
+Para realizar la autoevaluacion pondre cual fue mi trabajo hasta el momento en el curso.
+
+######################################################################################################
+
+Mi trabajo referente al primer parcial:
+
+Primer punto: el punto no era complicado de realizar y se termina de manera satisfactoria [calificacion: 5.0]
+Segundo punto: al igual que el primer punto, este punto funciona de manera satisfactoria [calificacion: 5.0]
+Tercer punto: este punto me costo muchisimo entender que es lo que sucedia [4.0]
+Cuarto punto: este punto esta bien realizado, pero creo que le hace falta un poco mas de trabajo y entendimiento [4.0]
+Quinto punto: en este punto, por gran fortuna, pude completarlo rapidamente y sin mucho problema [5.0]
+
+######################################################################################################
+
+haciedo un analisis sobre las tareas y proyectos hasta el momento en el curso, considero lo siquiente:
+
+resumensistemasoperativos.txt: creo que es un resumen de las partes mas detalladas que intenta no ser extenso y solo resaltar lo mas imporante [4.5]
+resumen.txt: De los videos mas largos que he visto, pero creo que tuve una buena idea para ahorrar tiempo a la hora de hacer el resumen, reproducirlo en x1.75
+                    fue bastante dificil terminarlo a tiempo por la longitud [4.0]
+llamados al sistema: Para esta tarea no tenia claro que es lo que estaba sucediendo, entonces hice lo mas sencillo que pude, pero se cumplio con el objetivo [4.0]
+procesos:	en esta tarea entendi muy bien lo que estaba haciendo el programa, a tal punto que me siento orgulloso de mi mismo, aunque costo buen tiempo
+                  fue reconfortante al final [5.0]
+resumen_ipfs.txt: esta tarea fue particularmente complicada para mi y al final no termine muy feliz con el resultado [3.0]
+expocision DevSecOps: Este fue el trabajo mas fuerte que hice en cuando al curso se refiere, tanto asi que tomamos dos clases en total con mi grupo para poder exponer todos
+            los temas que habiamos estudiado, estoy muy orgulloso de todo lo que aprendi y ya me ha sido util en diferentes situaciones. [5.0]
+so_strcpy.c: bastante sencilla y no significo mucho esfuerzo [4.0]
+hadoop: este trabajo requirio mucho esfuerzo, ya que no entendia bien cual de todos los pasos estaba fallando y cual era el problema que tenia con el programa
+                  al final se consiguio el objetivo [4.0]
+StreamApp: en esta tarea he puedo tanto esfuerzo que me vi obligado en cambiar de sistema operativo y formatee mi computador ya que en algun punto de la
+                  instalacion de material necesario, algo dañe en mi computador y SO original, aqui no puedo ser del todo imparcial y valorare mucho el esfuerzo 
+                  que me tomo [4.5]
+
+
+######################################################################################################
+
+Teniendo todo lo anterior en cuenta, creo que he logrado aprender habilidades importantes para mi desarrollo personal, ademas del esfuerzo gigantesco que he realizado
+por intentar comprender todos los temas de manera satisfactoria. Lo anterior y viendo mi autoevaluacion en cada uno de los puntos, creo que mi nota final deberia ser
+un [4.4]
+
+Resumen notas:
+Tareas [4.2]
+Primer parcial [4.6]
+esfuerzo [4.5]
