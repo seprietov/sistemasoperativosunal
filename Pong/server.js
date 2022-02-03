@@ -21,13 +21,13 @@ function Ball(id,x,y,xv,yv,r){
 }
 
 
-var express = require('express'); //Import the module
-var app = express(); //Now we have an express app
+var express = require('express'); 
+var app = express(); 
 var server = app.listen(3000);
-app.use(express.static('public')); //host everything in the public directory
+app.use(express.static('public')); 
 console.log("Running");
-var socket = require('socket.io'); //Same as express
-var io = socket(server); //this var handles input and output through the socket pointing the server
+var socket = require('socket.io'); 
+var io = socket(server); 
 
 
 function getCounter(){
@@ -55,7 +55,8 @@ io.sockets.on('connection',function(socket){
 	getCounter();
 	socket.on('start',function(data){
 		var p = new Player(socket.id,data.x,data.y,data.w,data.h,data.points);
-		players.push(p);
+		if(connections.length < 3)
+			players.push(p);
 	}); 
 
 	socket.on('startBall',function(data){
