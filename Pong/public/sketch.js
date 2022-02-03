@@ -13,11 +13,10 @@ function setup(){
     b = new Ball(width/2,height/2,4,4,15);
     socket.on('getCounter',function(data){
       counter = data;
-      print(counter);
       if(p1 === undefined){
-      if(counter % 2 === 0 )
+      if(counter % 2 === 0 && counter < 3)
         p1 = new Player(0);
-      else
+      else if(counter < 3)
         p1 = new Player(width);
       }
     var data = {
@@ -134,4 +133,3 @@ function showPoints(p){
     }
   }
 }
-
